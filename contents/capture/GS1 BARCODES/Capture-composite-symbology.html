@@ -1,0 +1,159 @@
+<div class="container">
+    <div class="row">
+    	<div class="col-md-12">
+            <div id="block-gsone-revamp-breadcrumbs" class="settings-tray-editable block block-system block-system-breadcrumb-block" data-drupal-settingstray="editable">
+				<div class="content">
+        			<section class="section-breadcrumbs">
+    					<div class="container">
+    						<ol itemscope itemtype="http://schema.org/BreadcrumbList" aria-label="breadcrumb">
+                    			<li class="" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                          			<a class="link" itemprop="item" href="javascript:loadHome()">
+                						<span itemprop="name">Home</span>
+                						<span class="separator"></span>
+                						<meta itemprop="position" content="1" />
+              						</a>
+                      			</li>
+                    			<li class="" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                          			<a class="link" itemprop="item" href="javascript:loadHome()">
+                						<span itemprop="name">Industries</span>
+                						<span class="separator"></span>
+                						<meta itemprop="position" content="2" />
+              						</a>
+                      			</li>
+                    			<li class="active"  itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                          			<span itemprop="item">
+                						<span itemscope itemprop="identifier" itemtype="http://schema.org/PropertyValue" hidden>
+                							<meta itemprop="url">https://www.gs1.org/articles/new-verified-by-gs1-success-stories-demonstrate-benefits-industry-worldwide
+										</span>
+                					</span>
+									<span class="current" itemprop="name">
+										Healthcare
+									</span>
+                					<meta itemprop="position" content="3" /></span>
+                      			</li>
+              				</ol>
+						</div>
+					</section>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="block-gsone-revamp-content" class="block block-system block-system-main-block">
+	<div class="content">
+		<div>
+	  		<div class="_none pt-spacer-6 pb-spacer-6"><div  class="container">
+				<div class="layout row layout-builder__layout">
+  				  	<div class="col-md-12 col-s-12 col-xs-12">
+						<div class="mb-spacer-3 block block-layout-builder block-field-blocknodenewstitle">
+							<div class="content">
+	  							<h2>Transport & Logistics</h2>
+	  						</div>
+							<div class="clearfix text-formatted">
+								<div>
+									<p>							
+                                        The Composite Symbology integrates both a GS1 System linear symbol and a 2D Composite Component as a single symbology. There are three types of Composite Symbols A, B and C, each with different encoding rules.										
+                                    </p>						
+                                </div>
+                         <!----     <div class="col-md-4">
+                                    <div>
+                                        <img src="./com/assets/composite-symbology.png" class="pull-left place-hold-image img-responsive" alt="Key to database" style="margin-left:0px; margin-bottom:10px">
+                                    </div>		 -->				
+                                    
+                                </div>			
+                            </div>
+                            
+                            <p>
+                                The linear component encodes the item’s primary identification. The adjacent 2D Composite Component encodes supplementary data, such as a batch number and expiration date. The Composite Symbol always includes a linear component so that the primary identification is readable by all scanning technologies. The Composite Symbol always includes a multi-row 2D Composite Component that can be read with linear- and area-CCD scanners, and with linear and rastering laser scanners.
+                            </p>
+                            
+                            <p>
+                                The linear component will be GS1-128, EAN-8, EAN-13, UPC-A, UPC-E or any barcode in the GS1 DataBar family.
+                            </p>
+                            
+                            <p>
+                                The 2D component may be a CC-A or CC-B component (a variant of Micro PDF417) or, in the case of GS1-128 linear components, may be a CC-C component (a variant of PDF417). The choice between CC-A and CC-B components is made on the basis of the amount of data to be encoded in the 2D component. CC-A can accommodate up to 56 digits (excluding any control characters), while CC-B can hold up to 338 digits. A CC-C component may be used only with a GS1-128 linear component, but can hold up to 2360 digits.
+                            </p>
+                            
+                            <table class="table table-striped small">
+                              <thead>
+                                <tr>
+                                    <th>Number of CC-B Columns</th>
+                                    <th>Used with Linear Barcode Component</th>
+                                    <th>Maximum Numeric Characters</th>
+                                    <th>Maximum Alpha Characters</th>	
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        GS1 DataBar-14 Stacked,<br>
+                                        GS1 DataBar-14 Stacked Omnidirectional
+                                    </td>
+                                    <td>95</td>
+                                    <td>55</td>						
+                                </tr>			
+            
+                                <tr>
+                                    <td>3</td>
+                                    <td>GS1 DataBar Limited</td>
+                                    <td>219</td>
+                                    <td>127</td>						
+                                </tr>
+                                
+                                <tr>
+                                    <td>4</td>
+                                    <td>
+                                        GS1 DataBar-14,<br>
+                                        GS1 DataBar Expanded,<br>
+                                        GS1 DataBar Expanded Stacked
+                                    </td>
+                                    <td>338</td>
+                                    <td>196</td>						
+                                </tr>	
+                                
+                              </tbody>
+                            </table>
+                            
+                            <p>
+                                The 2D component includes a linkage flag to distinguish the component from a stand-alone 2D barcode and to ensure that the 2D component does not scan without the linear component.
+                            </p>
+                            
+                      <!----        <p>
+                                Examples:
+                            </p>
+                            
+                         <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./com/assets/composite-symbology-1.png" class="pull-left place-hold-image img-responsive" alt="Key to database" style="margin-left:0px; margin-bottom:10px">
+                                </div>
+                            
+                                <div class="col-md-4">
+                                    <img src="./com/assets/composite-symbology-2.png" class="pull-left place-hold-image img-responsive" alt="Key to database" style="margin-left:0px; margin-bottom:10px">
+                                </div>
+                            
+                                <div class="col-md-4">
+                                    <img src="./com/assets/composite-symbology-3.png" class="pull-left place-hold-image img-responsive" alt="Key to database" style="margin-left:0px; margin-bottom:10px">
+                                </div>
+                            </div> -->
+								
+								</div>
+							</div>
+							<br/><br/>
+
+
+				
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>			  
+	</div>
+</div>
+
+
